@@ -18,13 +18,13 @@
 
     </div>
     <div class="container2">
-      <img src="../static/thomas-yohei-0fjRZf08HJQ-unsplash.jpg" height="300" width=""/>
+      <img src="/thomas-yohei-0fjRZf08HJQ-unsplash.jpg" height="300" width=""/>
     </div>
     <div class="container3">
-      <img src="../static/ben-klewais-APi5Pa4bEcI-unsplash.jpg" height="300" width=""/>
+      <img src="/ben-klewais-APi5Pa4bEcI-unsplash.jpg" height="300" width=""/>
     </div>
     <div class="container4">
-      <img src="../static/michael-bowman-GVMdjXsFpXo-unsplash.jpg" height="200" width=""/>
+      <img src="/michael-bowman-GVMdjXsFpXo-unsplash.jpg" height="200" width=""/>
     </div>
   </div>
 
@@ -51,19 +51,19 @@ h1 {
 }
 
 .container-i-1 {
-  width: 600px;
+  width: 205px;
   float: left;
 }
 
 .container-t-1 {
-  width: 600px;
+  width: 205px;
   float: left;
 }
 
 .container1 {
   margin: auto;
   border: 2px solid black;
-  width: 1200px;
+  width: 510px;
   height: 400px;
 }
 
