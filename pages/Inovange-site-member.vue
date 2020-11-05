@@ -41,29 +41,35 @@ span {
 }
 
 h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 50px;
+  transform: translate(-50%,-50%);
 }
 
 .containert {
   display: flex;
-  text-align: center;
-  justify-content: center;
-  font-size: 50px;
+  height: 500px;
+  width: auto;
+  position: relative;
+
 }
 
 .container-i-1 {
-  width: 205px;
+  width: 50%;
   float: left;
 }
 
 .container-t-1 {
-  width: 205px;
+  width: 50%;
   float: left;
 }
 
 .container1 {
-  margin: auto;
+  margin: 0 auto;
   border: 2px solid black;
-  width: 510px;
+  width: 100%;
   height: 400px;
 }
 
