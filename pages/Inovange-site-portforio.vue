@@ -9,21 +9,19 @@
     </div>
 
     <div class="container sub">
-
       <div class="container1">
-        <img src="../static/jm-dav-dhAgfU99RCs-unsplash.jpg" height="200" width=""/>
+        <img src="../static/jm-dav-dhAgfU99RCs-unsplash.jpg" height="200" width="">
       </div>
       <div class="container2">
-        <img src="../static/thomas-yohei-0fjRZf08HJQ-unsplash.jpg" height="300" width=""/>
+        <img src="../static/thomas-yohei-0fjRZf08HJQ-unsplash.jpg" height="300" width="">
       </div>
       <div class="container3">
-        <img src="../static/ben-klewais-APi5Pa4bEcI-unsplash.jpg" height="300" width=""/>
+        <img src="../static/ben-klewais-APi5Pa4bEcI-unsplash.jpg" height="300" width="">
       </div>
       <div class="container4">
-        <img src="../static/michael-bowman-GVMdjXsFpXo-unsplash.jpg" height="200" width=""/>
+        <img src="../static/michael-bowman-GVMdjXsFpXo-unsplash.jpg" height="200" width="">
       </div>
     </div>
-
   </div>
 </template>
 
