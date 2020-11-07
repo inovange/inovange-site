@@ -4,42 +4,44 @@
       <span>Home</span>
     </div>
 
-    <svg id="レイヤー_1" data-name="レイヤー 1" class="レイヤー１" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <style>.cls-1 {
-          fill: #9a0010;
+    <div class="animation">
+      <svg id="レイヤー_1" data-name="レイヤー 1" class="レイヤー１" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <style>.cls-1 {
+            fill: #9a0010;
           }
 
           .cls-1, .cls-2, .cls-3 {
-          stroke: #9a0010;
-          stroke-miterlimit: 10;
+            stroke: #9a0010;
+            stroke-miterlimit: 10;
           }
 
           .cls-1, .cls-2 {
-          stroke-width: 1.51px;
+            stroke-width: 1.51px;
           }
 
           .cls-2 {
-          fill: #040000;
+            fill: #040000;
           }
 
           .cls-3 {
-          fill: none;
-          stroke-width: 2.24px;
+            fill: none;
+            stroke-width: 2.24px;
           }
 
           .cls-4 {
-          font-size: 66.4px;
-          fill: #231815;
-          font-family: KozGoPr6N-Regular-83pv-RKSJ-H, Kozuka Gothic Pr6N;
-          letter-spacing: 0.18em;
+            font-size: 66.4px;
+            fill: #231815;
+            font-family: KozGoPr6N-Regular-83pv-RKSJ-H, Kozuka Gothic Pr6N;
+            letter-spacing: 0.18em;
           }</style>
-      </defs>
-      <path class="cls-1 svg-elem-1" d="M466.82,394.74C654.05,593.16,841.68,631.63,1030,396.09" />
-      <path class="cls-2 svg-elem-2" d="M102.62,392.39c103.29-186.74,225.8-135.29,355.2,1.35" />
-      <line class="cls-3 svg-elem-3" x1="-134" y1="394" x2="1309" y2="394" />
-      <text class="cls-4" transform="translate(457.57 375.81)">Member</text>
-    </svg>
+        </defs>
+        <path class="cls-1 svg-elem-1" d="M466.82,394.74C654.05,593.16,841.68,631.63,1030,396.09"/>
+        <path class="cls-2 svg-elem-2" d="M102.62,392.39c103.29-186.74,225.8-135.29,355.2,1.35"/>
+        <line class="cls-3 svg-elem-3" x1="-134" y1="394" x2="1309" y2="394"/>
+        <text class="cls-4" transform="translate(457.57 375.81)">Member</text>
+      </svg>
+    </div>
 
     <div class="container1">
       <div class="container-i-1">
@@ -87,14 +89,6 @@ export default {}
 span {
   border: 1px solid;
   border-color: #35495e;
-}
-
-h1 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  font-size: 50px;
-  transform: translate(-50%, -50%);
 }
 
 .containert {
@@ -176,7 +170,16 @@ h1 {
   viewBox: 0 0 1200 700;
   width: 100%;
   height: 700px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
 
+.animation {
+  width: 1200px;
+  height: 700px;
+  position: relative;
 }
 
 /***************************************************
