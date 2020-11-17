@@ -5,7 +5,7 @@
     </div>
 
     <div class="containert">
-      <svg id="レイヤー_1" data-name="レイヤー 1" class="レイヤー１" xmlns="http://www.w3.org/2000/svg">
+      <svg id="レイヤー_1" data-name="レイヤー 1" class="abc" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <style>.cls-1 {
             fill: #fff;
@@ -43,19 +43,22 @@
       </svg>
     </div>
 
-    <div class="container sub">
-      <div class="container1">
-        <img src="../static/スクリーンショット 2020-10-23 21.48.45.png" height="" width="300"/>
+    <div class="container1">
+      <div class="container-i-1">
+        <img src="../static/IMG_8981.JPG" height="200px" width="">
       </div>
-      <div class="container2">
-        <img src="../static/スクリーンショット 2020-10-23 21.49.35.png" height="" width="300"/>
+      <div class="container-t-1">
+        <p>アイウエオ</p>
       </div>
-      <div class="container3">
-        <img src="../static/スクリーンショット 2020-10-23 21.50.03.png" height="" width="300"/>
-      </div>
-      <div class="container4">
-        <img src="../static/スクリーンショット 2020-10-23 21.50.28.png" height="" width="300"/>
-      </div>
+    </div>
+    <div class="container2">
+      <img src="../static/スクリーンショット 2020-10-23 21.49.35.png" height="" width="300"/>
+    </div>
+    <div class="container3">
+      <img src="../static/スクリーンショット 2020-10-23 21.50.03.png" height="" width="300"/>
+    </div>
+    <div class="container4">
+      <img src="../static/スクリーンショット 2020-10-23 21.50.28.png" height="" width="300"/>
     </div>
   </div>
 </template>
@@ -74,16 +77,23 @@ h1 {
 }
 
 .containert {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  font-size: 50px;
+}
+
+.container-i-1 {
+  width: 50%;
+  float: left;
+}
+
+.container-t-1 {
+  width: 50%;
+  float: left;
 }
 
 .container1 {
+  margin: auto;
   margin-top: 100px;
   border: 2px solid black;
-  width: auto;
+  width: 100%;
   height: 400px;
 }
 
@@ -181,9 +191,18 @@ svg.active .svg-elem-5 {
   stroke-dashoffset: 0;
 }
 
-.レイヤー１ {
-  viewBox: 0 0 1200 700;
+.abc {
   width: 100%;
   height: 700px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.animation {
+  width: 1200px;
+  height: 700px;
+  position: relative;
 }
 </style>
