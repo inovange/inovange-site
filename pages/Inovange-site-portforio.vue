@@ -5,40 +5,14 @@
     </div>
 
     <div class="containert">
-      <svg id="レイヤー_1" data-name="レイヤー 1" class="abc" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <style>.cls-1 {
-            fill: #fff;
-          }
-
-          .cls-1, .cls-3, .cls-4 {
-            stroke: #9a0010;
-            stroke-miterlimit: 10;
-            stroke-width: 4px;
-          }
-
-          .cls-1, .cls-2, .cls-4 {
-            opacity: 0.4;
-          }
-
-          .cls-3, .cls-4 {
-            fill: none;
-          }
-
-          .cls-5 {
-            font-size: 120px;
-            fill: #4d4d4d;
-            font-family: Futura-Medium, Futura;
-            font-weight: 500;
-          }</style>
-        </defs>
-        <line class="cls-1 svg-elem-1" y1="350.5" x2="401.5" y2="350.5"></line>
+      <svg id="レイヤー_1" data-name="レイヤー 1" class="abc" :class="className" xmlns="http://www.w3.org/2000/svg">
+        <line class="cls-1 svg-elem-1" y1="350.5" x2="401.5" y2="350.5"/>
         <g class="cls-2">
-          <line class="cls-3 svg-elem-2" x1="798" y1="349" x2="1200" y2="349"></line>
+          <line class="cls-3 svg-elem-2" x1="798" y1="349" x2="1200" y2="349"/>
         </g>
-        <line class="cls-4 svg-elem-3" x1="476.5" y1="205.5" x2="748.5" y2="447.5"></line>
-        <line class="cls-4 svg-elem-4" x1="798.5" y1="349.5" x2="748.5" y2="447.5"></line>
-        <line class="cls-4 svg-elem-5" x1="476.5" y1="205.5" x2="401.5" y2="350.5"></line>
+        <line class="cls-4 svg-elem-3" x1="476.5" y1="205.5" x2="748.5" y2="447.5"/>
+        <line class="cls-4 svg-elem-4" x1="798.5" y1="349.5" x2="748.5" y2="447.5"/>
+        <line class="cls-4 svg-elem-5" x1="476.5" y1="205.5" x2="401.5" y2="350.5"/>
         <text class="cls-5" transform="translate(372.86 378.52)">Portfolio</text>
       </svg>
     </div>
@@ -52,31 +26,51 @@
       </div>
     </div>
     <div class="container2">
-      <img src="../static/スクリーンショット 2020-10-23 21.49.35.png" height="" width="300"/>
+      <img src="../static/スクリーンショット 2020-10-23 21.49.35.png" height="" width="300">
     </div>
     <div class="container3">
-      <img src="../static/スクリーンショット 2020-10-23 21.50.03.png" height="" width="300"/>
+      <img src="../static/スクリーンショット 2020-10-23 21.50.03.png" height="" width="300">
     </div>
     <div class="container4">
-      <img src="../static/スクリーンショット 2020-10-23 21.50.28.png" height="" width="300"/>
+      <img src="../static/スクリーンショット 2020-10-23 21.50.28.png" height="" width="300">
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      active: false
+    }
+  },
+  computed: {
+    className () {
+      return {
+        active: this.active
+      }
+    }
+  },
+  mounted () {
+    setTimeout(() => {
+      this.active = true
+    }, 50)
+  }
+}
 </script>
 
 <style>
 span {
-  border: 1px solid;
-  border-color: #35495e;
+  border: 1px solid #35495e;
 }
 
 h1 {
 }
 
 .containert {
+  width: 1200px;
+  height: 700px;
+  position: relative;
 }
 
 .container-i-1 {
@@ -91,7 +85,7 @@ h1 {
 
 .container1 {
   margin: auto;
-  margin-top: 100px;
+  margin-top: 140px;
   border: 2px solid black;
   width: 100%;
   height: 400px;
@@ -204,5 +198,30 @@ svg.active .svg-elem-5 {
   width: 1200px;
   height: 700px;
   position: relative;
+}
+
+.cls-1 {
+  fill: #fff;
+}
+
+.cls-1, .cls-3, .cls-4 {
+  stroke: #9a0010;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.cls-1, .cls-2, .cls-4 {
+  opacity: 0.4;
+}
+
+.cls-3, .cls-4 {
+  fill: none;
+}
+
+.cls-5 {
+  font-size: 120px;
+  fill: #4d4d4d;
+  font-family: Futura-Medium, Futura;
+  font-weight: 500;
 }
 </style>
