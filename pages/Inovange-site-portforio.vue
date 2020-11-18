@@ -19,20 +19,20 @@
 
     <div class="container1">
       <div class="container-i-1">
-        <img src="../static/IMG_8981.JPG" height="200px" width="">
+        <img src="../../Documents/4x/アートボード 3@4x-80.jpg" height="" width="200px"/>
       </div>
       <div class="container-t-1">
         <p>アイウエオ</p>
       </div>
     </div>
     <div class="container2">
-      <img src="../static/スクリーンショット 2020-10-23 21.49.35.png" height="" width="300">
+      <img src="../../../../Applications/キトクル/ポスティングチラシX.jpg" height="" width="300px"/>
     </div>
     <div class="container3">
-      <img src="../static/スクリーンショット 2020-10-23 21.50.03.png" height="" width="300">
+      <img src="../../Creative Cloud Files/4x/4x/アートボード 1@4x-80.jpg" height="" width="300px"/>
     </div>
     <div class="container4">
-      <img src="../static/スクリーンショット 2020-10-23 21.50.28.png" height="" width="300">
+      <img src="../../Creative Cloud Files/4x/アートボード 3@4x.png" height="" width="300px"/>
     </div>
   </div>
 </template>
