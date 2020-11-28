@@ -15,21 +15,15 @@
     </div>
 
     <div class="container1">
-      <div class="container-i-1">
-        <img src="../../Documents/4x/アートボード 3@4x-80.jpg" height="" width="200px"/>
-      </div>
-      <div class="container-t-1">
-        <p>アイウエオ</p>
-      </div>
-    </div>
+      <img src="../static/アートボード 2@4x-80.jpg" height="100%" width="100%"/></div>
     <div class="container2">
-      <img src="../../../../Applications/キトクル/ポスティングチラシX.jpg" height="" width="300px"/>
+      <img src="../static/クリエイターコース　ワードウルフ_アートボード 1.png" height="100%" width="100%"/>
     </div>
     <div class="container3">
       <img src="../../Creative Cloud Files/4x/4x/アートボード 1@4x-80.jpg" height="" width="300px"/>
     </div>
     <div class="container4">
-      <img src="../../Creative Cloud Files/4x/アートボード 3@4x.png" height="" width="300px"/>
+      <img src="../../Creative Cloud Files/4x/アートボード 3@4x.png" height="" width="100%"/>
     </div>
   </div>
 </template>
@@ -70,22 +64,10 @@ h1 {
   position: relative;
 }
 
-.container-i-1 {
-  width: 50%;
-  float: left;
-}
-
-.container-t-1 {
-  width: 50%;
-  float: left;
-}
-
 .container1 {
   margin: auto;
   margin-top: 140px;
-  border: 2px solid black;
   width: 100%;
-  height: 400px;
 }
 
 .container2 {
@@ -103,8 +85,6 @@ h1 {
 }
 
 .container4 {
-  margin-top: 100px;
-  border: 2px solid black;
   width: auto;
   height: 400px;
 }

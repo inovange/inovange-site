@@ -19,27 +19,15 @@
     <div class="container1">
       <div class="container-i-1">
         <img src="../static/IMG_8981.JPG" height="" width="100%">
+        <pre>
+        <br>代表/豊永雄正
+        </pre>
       </div>
       <div class="container-t-1">
         <h2>心が”ゆれる”ものを創る</h2>
-        <p>名前：豊永 雄正</p>
-        <p>信念：心がゆれるものを創る</p>
-        <table>
-          <tr>
-            <th>2016年3月</th>
-            <td>丸岡南中学校卒業</td>
-          </tr>
-          <tr>
-            <th>2020年3月</th>
-            <td>北陸高等学校卒業</td>
-          </tr>
-          <tr>
-            <th>2020年4月</th>
-            <td>富山大学入学</td>
-          </tr>
-        </table>
+        <br>
         <p>
-          思い：僕にとって、”ゆれる”は”つながる”であり、”革新”の意味でもあります。これらを僕やその仲間と関わった人達に提供させていただきたい！そんな思いでこのチームを結成致しました。まずは、広告やwebページを通してお客様とそのお客様を”つないで”いきます。
+          2020年9月16日、チームInovange『（イノベンジ）』を結成致しました。現在、メンバーは5人。僕自身の信念でもある”心がゆれるものを創る”を1つの理念として掲げております。<br><br>僕にとって、”ゆれる”は”つながる”であり、”革新”の意味。幼い頃から地元の福井で経験してきた人と”つながる”感覚。そして、TVや本、音楽を通して見続け、憧れ続けてきた”革新”。それらを表現していきます。まずは、広告やwebページを通してお客様とそのお客様を”つないで”いきます。
         </p>
       </div>
     </div>
@@ -128,19 +116,19 @@ span {
 }
 
 .container-i-1 {
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
 .container-t-1 {
   width: 50%;
   float: left;
+  margin-left: 30px;
 }
 
 .container1 {
   margin: auto;
   margin-bottom: 140px;
-  border: 2px solid black;
   width: 100%;
   height: 400px;
 }
