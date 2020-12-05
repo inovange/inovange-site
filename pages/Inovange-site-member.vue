@@ -33,7 +33,7 @@
     </div>
     <div class="container2">
       <div class="container-i-2">
-        <img src="../static/IMG_8946.JPG" height="200px" width="">
+        <img src="/IMG_8946.JPG" height="200px" width="">
       </div>
       <div class="container-t-2">
         <p>アイウエオ</p>
@@ -41,7 +41,7 @@
     </div>
     <div class="container3">
       <div class="container-i-3">
-        <img src="../static/IMG_8981.JPG" height="200px" width="">
+        <img src="/IMG_8981.JPG" height="200px" width="">
       </div>
       <div class="container-t-3">
         <p>アイウエオ</p>

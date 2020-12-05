@@ -5,25 +5,25 @@
     </div>
 
     <div class="containert">
-      <svg id="レイヤー_1" data-name="レイヤー 1" class="abc" :class="className" xmlns="http://www.w3.org/2000/svg" >
-        <path class="cls-1 svg-elem-1" d="M786.05,348.83l-.28.48c-19.35,34-93.27,153-192,121.41-61.4-19.65-104-88.45-123.64-125.21"></path>
-        <path class="cls-2 svg-elem-2" d="M115.32,350.67c.09-.17.19-.33.29-.49,22-36.83,106.22-165.66,218.64-131.46C404.17,240,452.65,314.5,475.05,354.3"></path>
-        <polyline class="cls-3 svg-elem-3" points="116.93 351.34 0.38 351.34 0.38 350.86 117.22 350.86"></polyline>
-        <polyline class="cls-4 svg-elem-4" points="784.24 348.83 1341.2 348.83 1366 348.83 1366 348.98 1357.15 349.31 1328.21 349.31 783.17 349.31"></polyline>
+      <svg id="レイヤー_1" data-name="レイヤー 1" class="abc" :class="className" xmlns="http://www.w3.org/2000/svg">
+        <path class="cls-1 svg-elem-1" d="M786.05,348.83l-.28.48c-19.35,34-93.27,153-192,121.41-61.4-19.65-104-88.45-123.64-125.21" />
+        <path class="cls-2 svg-elem-2" d="M115.32,350.67c.09-.17.19-.33.29-.49,22-36.83,106.22-165.66,218.64-131.46C404.17,240,452.65,314.5,475.05,354.3" />
+        <polyline class="cls-3 svg-elem-3" points="116.93 351.34 0.38 351.34 0.38 350.86 117.22 350.86" />
+        <polyline class="cls-4 svg-elem-4" points="784.24 348.83 1341.2 348.83 1366 348.83 1366 348.98 1357.15 349.31 1328.21 349.31 783.17 349.31" />
         <text class="cls-5" transform="translate(824.29 333.72)">Works</text>
       </svg>
     </div>
 
     <div class="container1">
-      <img src="../static/アートボード 2@4x-80.jpg" height="100%" width="100%"/></div>
+      <img src="/labore-design-1.jpg" height="100%" width="100%">
+    </div>
     <div class="container2">
-      <img src="../static/クリエイターコース　ワードウルフ_アートボード 1.png" height="100%" width="100%"/>
+      <img src="/wordwolves.png" height="100%" width="100%">
     </div>
     <div class="container3">
-      <img src="../../Creative Cloud Files/4x/4x/アートボード 1@4x-80.jpg" height="" width="300px"/>
     </div>
     <div class="container4">
-      <img src="../../Creative Cloud Files/4x/アートボード 3@4x.png" height="" width="100%"/>
+      <img src="/tksupport-logo.png" height="" width="100%">
     </div>
   </div>
 </template>
