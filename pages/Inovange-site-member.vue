@@ -18,7 +18,7 @@
     </div>
     <div class="container1">
       <div class="container-i-1">
-        <img src="../static/IMG_8981.JPG" height="" width="100%">
+        <img src="/member-yusei.jpg" height="" width="100%">
         <pre>
         <br>代表/豊永雄正
         </pre>
@@ -33,23 +33,37 @@
     </div>
     <div class="container2">
       <div class="container-i-2">
-        <img src="/IMG_8946.JPG" height="200px" width="">
+        <img src="/member-hiroto.jpg" height="" width="100%">
+        <pre>
+          <br>creater/加藤海澄
+        </pre>
       </div>
       <div class="container-t-2">
-        <p>アイウエオ</p>
+        <h3>No laugh’n Nolife</h3>
+        <br>
+        <p>
+          人が面白いと感じる瞬間はいつだと思いますか？お笑いに例えてみます。僕が1番の芸人として慕っているのが松本人志なのですが彼はトーク力が高いんです。後輩芸人に強気のツッコミ。年齢に負けないハイテクなボケ。そうきたか！その手があったか！と思わせるような奇想天外なトーク。僕はそれが面白いと感じる瞬間だと思います。お客様をアッと驚かせるような面白い広告、webを作ります。
+        </p>
       </div>
     </div>
     <div class="container3">
       <div class="container-i-3">
-        <img src="/IMG_8981.JPG" height="200px" width="">
+        <img src="/member-yusei.jpg" height="" width="100%">
+        <pre>
+          <br>プログラマー/西沢至恩
+        </pre>
       </div>
       <div class="container-t-3">
-        <p>アイウエオ</p>
+        <h3>三本柱</h3>
+        <br>
+        <p>
+          ”普通”という言葉が嫌いです。服や持ち物が人とかぶるのが嫌いです。流行に乗りたくないです。人とかぶらない、”普通”じゃない革新的な広告、webデザインを任せてください！！
+        </p>
       </div>
     </div>
     <div class="container4">
       <div class="container-i-4">
-        <img src="../static/IMG_8981.JPG" height="200px" width="">
+        <img src="/member-hiroto.jpg" height="200px" width="">
       </div>
       <div class="container-t-4">
         <p>アイウエオ</p>
@@ -134,37 +148,37 @@ span {
 }
 
 .container-i-2 {
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
 .container-t-2 {
   width: 50%;
   float: left;
+  margin-left: 30px;
 }
 
 .container2 {
   margin: auto;
   margin-bottom: 140px;
-  border: 2px solid black;
   width: 100%;
   height: 400px;
 }
 
 .container-i-3 {
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
 .container-t-3 {
   width: 50%;
   float: left;
+  margin-left: 30px;
 }
 
 .container3 {
   margin: auto;
   margin-bottom: 140px;
-  border: 2px solid black;
   width: 100%;
   height: 400px;
 }

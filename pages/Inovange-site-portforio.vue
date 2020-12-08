@@ -21,9 +21,7 @@
       <img src="/wordwolves.png" height="100%" width="100%">
     </div>
     <div class="container3">
-    </div>
-    <div class="container4">
-      <img src="/tksupport-logo.png" height="" width="100%">
+      <img src="/tksupport-logo.png" height="100%" width="100%">
     </div>
   </div>
 </template>
@@ -71,17 +69,15 @@ h1 {
 }
 
 .container2 {
-  margin-top: 100px;
-  border: 2px solid black;
-  width: auto;
-  height: 400px;
+  margin: auto;
+  margin-top: 140px;
+  width: 100%;
 }
 
 .container3 {
-  margin-top: 100px;
-  border: 2px solid black;
-  width: auto;
-  height: 400px;
+  margin-top: 140px;
+  border: 1px solid black;
+  width: 100%;
 }
 
 .container4 {
