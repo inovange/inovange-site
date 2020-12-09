@@ -63,10 +63,32 @@
     </div>
     <div class="container4">
       <div class="container-i-4">
-        <img src="/member-hiroto.jpg" height="200px" width="">
+        <img src="/member-hiroto.jpg" height="" width="100%">
+        <pre>
+          <br>イラストレーター /照屋花音
+        </pre>
       </div>
       <div class="container-t-4">
-        <p>アイウエオ</p>
+        <h4></h4>
+        <br>
+        <p>
+
+        </p>
+      </div>
+    </div>
+    <div class="container5">
+      <div class="container-i-5">
+        <img src="/member-hiroto.jpg" height="" width="100%">
+        <pre>
+          <br>イラストレーター/深山れいか
+        </pre>
+      </div>
+      <div class="container-t-5">
+        <h4></h4>
+        <br>
+        <p>
+
+        </p>
       </div>
     </div>
   </div>
@@ -184,19 +206,37 @@ span {
 }
 
 .container-i-4 {
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
 .container-t-4 {
   width: 50%;
   float: left;
+  margin-left: 30px;
 }
 
 .container4 {
   margin: auto;
   margin-bottom: 140px;
-  border: 2px solid black;
+  width: 100%;
+  height: 400px;
+}
+
+.container-i-5 {
+  width: 40%;
+  float: left;
+}
+
+.container-t-5 {
+  width: 50%;
+  float: left;
+  margin-left: 30px;
+}
+
+.container5 {
+  margin: auto;
+  margin-bottom: 140px;
   width: 100%;
   height: 400px;
 }
