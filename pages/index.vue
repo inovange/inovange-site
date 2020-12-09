@@ -1,73 +1,43 @@
 <template>
-  <div class="container">
+  <div>
+    <div class="mx-auto" style="width: 200px;">
+      <canvas class="my-4 w-100" id="myChartc" width="900" height="400"></canvas>
+    </div>
     <div>
-      <Logo />
-      <h1 class="title">
-        inovange-site
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <Logo/>
+      <canvas class="my-4 w-100" id="myChartb" width="900" height="50"></canvas>
+     <center>
+       <a href="#" class="btn-circle-border-simple">What's Inovange</a>
+      <a href="#" class="btn-circle-border-simple">members</a>
+      <a href="#" class="btn-circle-border-simple">works</a>
+     </center>
     </div>
   </div>
 </template>
-
 <script>
-export default {}
+import Logo from '@/components/Logo'
+
+export default {
+  components: { Logo }
+}
 </script>
-
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.btn-circle-border-simple {
+  display: inline-block;
+  text-decoration: none;
+  color: #8B0000;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 50%;
+  border: solid 2px #8B0000;
   text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  transition: .4s;
 }
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.btn-circle-border-simple:hover {
+  background: #FFFFFF;
 }
 </style>
