@@ -8,7 +8,7 @@
       <canvas class="my-4 w-100" id="myChartb" width="900" height="50"></canvas>
      <center>
        <a href="#" class="btn-circle-border-simple">What's Inovange</a>
-      <a href="#" class="btn-circle-border-simple">members</a>
+      <a href="https://5fd0a3954d85ffe9dc6c6956--relaxed-snyder-bc4367.netlify.app/inovange-site-member/" class="btn-circle-border-simple">members</a>
       <a href="#" class="btn-circle-border-simple">works</a>
      </center>
     </div>
