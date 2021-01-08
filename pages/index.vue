@@ -1,43 +1,26 @@
 <template>
   <div>
     <div class="mx-auto" style="width: 200px;">
-      <canvas class="my-4 w-100" id="myChartc" width="900" height="400"></canvas>
+      <canvas id="myChartc" class="my-4 w-100" width="900" height="400" />
     </div>
     <div>
-      <Logo/>
-      <canvas class="my-4 w-100" id="myChartb" width="900" height="50"></canvas>
-     <center>
-       <a href="#" class="btn-circle-border-simple">What's Inovange</a>
-      <a href="https://5fd0a3954d85ffe9dc6c6956--relaxed-snyder-bc4367.netlify.app/inovange-site-member/" class="btn-circle-border-simple">members</a>
-      <a href="#" class="btn-circle-border-simple">works</a>
-     </center>
+      <Logo />
+      <canvas id="myChartb" class="my-4 w-100" width="900" height="50" />
+      <center>
+        <circle-button link="/origin">What's Inovange</circle-button>
+        <circle-button link="/member">members</circle-button>
+        <circle-button link="/portforio">works</circle-button>
+      </center>
     </div>
   </div>
 </template>
 <script>
 import Logo from '@/components/Logo'
+import CircleButton from '~/components/CircleButton'
 
 export default {
-  components: { Logo }
+  components: { CircleButton, Logo }
 }
 </script>
 <style>
-.btn-circle-border-simple {
-  display: inline-block;
-  text-decoration: none;
-  color: #8B0000;
-  width: 150px;
-  height: 150px;
-  line-height: 150px;
-  border-radius: 50%;
-  border: solid 2px #8B0000;
-  text-align: center;
-  overflow: hidden;
-  font-weight: bold;
-  transition: .4s;
-}
-
-.btn-circle-border-simple:hover {
-  background: #FFFFFF;
-}
 </style>
