@@ -14,7 +14,7 @@
     <br><br>
 
     <p>
-      <img class="logo" src="rogo.png" alt="inovangeロゴ" />
+      <img class="logo" src="/logo.png" alt="inovangeロゴ" />
     </p>
     <p class="write-text" :style="style">{{text}}</p>
     <br><br><br>
